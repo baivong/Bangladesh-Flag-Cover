@@ -76,7 +76,7 @@
         $wrap_img.addClass('generator');
         rainbowLGBT(url, cross, 320, function (img) {
             dataUrl = img;
-            $wrap_img.html('<a href="' + img + '" download="CelebratePride.jpg"><img src="' + img + '" alt="Celebrate Pride"></a>');
+            $wrap_img.html('<a href="' + img + '" download="BangladeshFlagCover.jpg"><img src="' + img + '" alt="Bangladesh Flag Cover"></a>');
             $input.prop('disable', false).val('');
             $add.slideUp('fast');
             $complete.slideDown('fast');
@@ -101,7 +101,7 @@
             var ctx = canvas.getContext('2d');
 
             var w = this.width, // image height
-                h = this.height, // image width                
+                h = this.height, // image width
                 rh = h * cw / w, // ratio height
                 rw = cw, // ratio width
                 oneTenths = cw / 10, // 1/10 canvas width
